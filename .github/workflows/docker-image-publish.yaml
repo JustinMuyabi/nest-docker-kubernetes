@@ -22,5 +22,5 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          pass: true
-          tags: indiciez/nestjs-app:v1.0.0
+          push: true
+          tags: indiciez/nestjs-app:latest
